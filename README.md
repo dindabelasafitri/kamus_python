@@ -1,70 +1,61 @@
 # kamus_python
 Project kamus sederhana Python yang aku buat untuk melatih logika lagi setelah sempat stuck di project To-Do List. Fokus pada latihan dictionary, looping, dan percabangan.
 
-Program Kamus Sederhana dengan Python
+---
 
-Program ini merupakan projek latihan Python dasar yang berfungsi sebagai kamus dua arah — pengguna dapat menambahkan kata baru, mencari arti, dan juga mencari kata berdasarkan arti.
+Program Kamus Sederhana berbasis Python ini memungkinkan pengguna untuk menambah, mencari, menampilkan, menghapus, dan mengedit arti kata.
+Dibuat sebagai latihan logika dasar, penggunaan dictionary, looping, dan percabangan di Python.
 
-✨ Fitur Utama
+⚙️ Fitur Utama
 
-1. Tambah Kata
-Tambahkan pasangan kata dan arti baru ke dalam kamus.
-
-
-2. Cari Arti
-Temukan arti dari kata tertentu yang sudah disimpan di kamus.
+1. ➕ Tambah kata dan arti baru ke dalam kamus
 
 
-3. Tampilkan Semua
-Lihat seluruh isi kamus yang telah ditambahkan.
+2. 🔍 Cari arti dari sebuah kata
 
 
-4. Cari Kata (Dari Arti)
-Mencari kata berdasarkan artinya (fungsi kebalikan dari “Cari Arti”).
+3. 📋 Tampilkan seluruh isi kamus
 
 
-5. Keluar Program
-Menutup program dengan pesan penutup sederhana.
+4. 🔄 Cari kata berdasarkan arti
+
+
+5. ✏️ Edit arti kata yang sudah ada
+
+
+6. 🚪 Keluar dari program
 
 ---
 
-💻 Cara Menjalankan Program
+🧩 Tujuan Pembuatan
 
-1. Pastikan kamu sudah menginstal Python di perangkatmu.
-
-2. Jalankan program di terminal atau IDE favoritmu:
-
-python kamus.py
-
-3. Pilih menu sesuai angka (1–5).
-
-4. Masukkan kata dan arti sesuai instruksi di terminal.
+Project ini dibuat sebagai latihan logika dasar dan pemahaman struktur data dictionary di Python.
+Selain itu, project ini juga membantu mengembalikan fokus dan konsistensi belajar setelah sebelumnya sempat mengalami hambatan logika di project To-Do List.
 
 ---
 
-🧠 Tujuan Belajar
+💻 Cara Menjalankan
 
-Projek ini dibuat untuk melatih:
+1. Pastikan Python sudah terinstal di perangkatmu
 
-Penggunaan dictionary (dict) di Python.
 
-Perulangan dan percabangan dalam program interaktif.
+2. Jalankan file menggunakan terminal atau IDE
 
-Logika pencarian dua arah (dari kata → arti, dan arti → kata).
+python kamus_sederhana.py
 
----
 
-📁 Struktur Menu Program
-
-1. Tambah Kata
-2. Cari Arti
-3. Tampilkan Semua
-4. Keluar
-5. Cari Kata
+3. Ikuti menu yang tersedia untuk menambah atau mencari kata
 
 ---
 
-🧩 Contoh Interaksi
+📂 Struktur Program
+
+Input: interaktif melalui terminal
+
+Output: hasil pencarian, daftar kata, dan pesan sistem
+
+
+📜 Contoh Tampilan
 
 === DAFTAR PILIHAN ===
 1. Tambah Kata
@@ -72,17 +63,4 @@ Logika pencarian dua arah (dari kata → arti, dan arti → kata).
 3. Tampilkan Semua
 4. Keluar
 5. Cari Kata
-Pilih Menu(1-5): 1
-masukkan kata: apple
-masukkan artinya: apel
-kata berhasil di tambahkan!
-
-Pilih Menu(1-5): 2
-masukkan kata yang mau di cari: apple
-Arti apple adalah apel
-
----
-
-📚 Catatan
-
-Project ini merupakan bagian dari perjalanan belajar Python-ku — latihan membuat program interaktif berbasis teks yang sederhana namun fungsional.
+6. Edit Kata
