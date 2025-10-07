@@ -3,64 +3,85 @@ Project kamus sederhana Python yang aku buat untuk melatih logika lagi setelah s
 
 ---
 
-Program Kamus Sederhana berbasis Python ini memungkinkan pengguna untuk menambah, mencari, menampilkan, menghapus, dan mengedit arti kata.
-Dibuat sebagai latihan logika dasar, penggunaan dictionary, looping, dan percabangan di Python.
+Kamus Bahasa Python (Versi dengan JSON Autosave)
 
-⚙️ Fitur Utama
+Program ini adalah proyek latihan Python sederhana yang berfungsi sebagai kamus interaktif, di mana pengguna bisa menambah, mencari, mengedit, atau menghapus kata secara langsung melalui terminal.
+Setiap perubahan akan tersimpan otomatis ke file data.json, jadi data tidak akan hilang meskipun program ditutup.
 
-1. ➕ Tambah kata dan arti baru ke dalam kamus
-
-
-2. 🔍 Cari arti dari sebuah kata
-
-
-3. 📋 Tampilkan seluruh isi kamus
-
-
-4. 🔄 Cari kata berdasarkan arti
-
-
-5. ✏️ Edit arti kata yang sudah ada
-
-
-6. 🚪 Keluar dari program
 
 ---
 
-🧩 Tujuan Pembuatan
+Fitur Utama
 
-Project ini dibuat sebagai latihan logika dasar dan pemahaman struktur data dictionary di Python.
-Selain itu, project ini juga membantu mengembalikan fokus dan konsistensi belajar setelah sebelumnya sempat mengalami hambatan logika di project To-Do List.
+1. Tambah Kata → Simpan kata dan artinya.
+
+
+2. Cari Arti → Temukan arti dari kata yang sudah dimasukkan.
+
+
+3. Tampilkan Semua → Lihat seluruh isi kamus.
+
+
+4. Hapus Kata → Hapus kata yang tidak diperlukan.
+
+
+5. Edit Kata → Ubah arti dari kata tertentu.
+
+
+6. Cari Kata dari Arti → Temukan kata berdasarkan artinya (reverse search).
+
+
+7. Autosave JSON → Setiap perubahan otomatis disimpan ke data.json.
+
 
 ---
 
-💻 Cara Menjalankan
+💾 Cara Menjalankan
 
-1. Pastikan Python sudah terinstal di perangkatmu
-
-
-2. Jalankan file menggunakan terminal atau IDE
-
-python kamus_sederhana.py
+1. Pastikan sudah menginstal Python 3.x.
 
 
-3. Ikuti menu yang tersedia untuk menambah atau mencari kata
+2. Simpan kode di file bernama kamus.py.
+
+
+3. Jalankan program dengan perintah:
+
+python kamus.py
+
+
+4. Semua data akan otomatis tersimpan ke file data.json di folder yang sama.
+
 
 ---
 
-📂 Struktur Program
+🧩 Struktur File
 
-Input: interaktif melalui terminal
+📂 Kamus-Python
+├── kamus.py
+└── data.json
 
-Output: hasil pencarian, daftar kata, dan pesan sistem
+
+---
+💡 Catatan
+
+Program ini cocok untuk latihan konsep:
+
+dictionary Python
+
+file handling
+
+JSON serialization
+
+error handling
+
+logika menu interaktif
+
+---
+
+👩‍💻 Pembuat
+
+Proyek ini dibuat oleh dindabelasafitri
+Sebagai bagian dari perjalanan belajar Python — dengan konsistensi menambah fitur 1 hari 1 kali.
 
 
-📜 Contoh Tampilan
-
-=== DAFTAR PILIHAN ===
-1. Tambah Kata
-2. Cari Arti
-3. Tampilkan Semua
-4. Keluar
-5. Cari Kata
-6. Edit Kata
+---
